@@ -52,7 +52,4 @@ Data	JSON for FAQ storage
 <img width="299" height="394" alt="image" src="https://github.com/user-attachments/assets/5ba21342-6df6-4dbf-b79a-664d8129c6d3" />
 
 ⚙️ How It Works
-
-
-
 User Question → Preprocess → TF-IDF Vectorize → Cosine Similarity → Best Match
