@@ -53,3 +53,38 @@ Data	JSON for FAQ storage
 
 ⚙️ How It Works
 User Question → Preprocess → TF-IDF Vectorize → Cosine Similarity → Best Match
+
+
+## 🚀 Installation
+
+### Step 1: Clone Repository
+
+bash```
+git clone https://github.com/Jinsiya/CodeAlpha_ChatbotsforFAQs.git
+cd CodeAlpha_ChatbotsforFAQs
+Step 2: Create Virtual Environment
+bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+Step 3: Install Dependencies
+bash
+pip install -r requirements.txt
+Step 4: Download NLTK Data
+bash
+python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
+Step 5: Run Application
+bash
+python app.py
+
+ ## Troubleshooting
+NLTK Data Missing
+bash
+python -c "import nltk; nltk.download('all')"
+Import Errors
+bash
+pip install -r requirements.txt --force-reinstall
